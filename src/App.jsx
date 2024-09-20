@@ -14,9 +14,20 @@ function App() {
   const [services, setServices] = useLocalStorage('services', serviceData)
   const [editingRowId, setEditingRowId] = useLocalStorage('editingRowId', '')
 
+  const reset = () => {
+    // console.log("hiii")
+    localStorage.clear();
+    window.location.reload()
+  }
+
+
   return (
     <main>
+      <button className='reset-btn' onClick={reset}>
+        Reset List
+      </button>
       <h1>Healthcare Services</h1>
+
       <div className="expense-tracker">
         <ServiceForm
           setServices={setServices}

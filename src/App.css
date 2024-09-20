@@ -129,7 +129,21 @@ caption{
     font-size: 1rem;
 }
 
-
+.reset-btn{
+   
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    padding: 5px;
+    border: none;
+    background-color: #fb1010;
+    color: #ffffff;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out; 
+    float: right;
+   
+}
 
 .add-btn {
     width: 100%;
@@ -183,8 +197,15 @@ caption{
     body {
         margin-inline: 16px;
     }
+    h1{
+        font-size: 1.5rem;
+    }
 
     .expense-tracker {
         flex-direction: column;
+    }
+    .reset-btn{
+        font-size: .7rem;
+        font-weight: 600;       
     }
 }

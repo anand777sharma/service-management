@@ -13,7 +13,6 @@ export default function ServiceTable({
   const [rowId, setRowId] = useState('')
 
 
-
   return (
     <>
       <ContextMenu
@@ -26,7 +25,7 @@ export default function ServiceTable({
         setEditingRowId={setEditingRowId}
       />
       <table className="service-table" onClick={() => setMenuPosition({})}>
-        <caption>To edit or delete a row, simply right-click on the desired row to open the context menu.</caption>
+        <caption>To edit or delete a row, simply right-click or long press on the desired row to open the context menu.</caption>
         <thead>
           <tr>
             <th className="name-column">Name</th>
