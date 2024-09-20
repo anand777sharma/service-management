@@ -90,6 +90,7 @@ caption{
     padding: 4px 8px;
     background-color: #ffffff;
     transition: background-color 0.2s ease-in-out; 
+    user-select: none;
 }
 .service-table th:hover,
 .service-table td:hover {
@@ -110,12 +111,12 @@ caption{
 }
 
 .input-container input {
-    height: 28px;
+    /* height: 28px; */
     font-family: inherit;
     border: 2px solid #ededed;
     outline: none;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.055); 
-    padding-left: 10px;
+    padding: 5px 10px;
     font-size: 1rem;
 
 }
@@ -132,7 +133,7 @@ caption{
 
 .add-btn {
     width: 100%;
-    height: 32px;
+    height: 35px;
     font-size: 18px;
     font-weight: 600;
     font-family: inherit;
