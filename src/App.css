@@ -205,7 +205,7 @@ caption{
         flex-direction: column;
     }
     .reset-btn{
-        font-size: .7rem;
+        font-size: .9rem;
         font-weight: 600;       
     }
 }
